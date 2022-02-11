@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="utf-8"/>
+  <title>欢迎</title>
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="catcoder" name="author"/>
+  <link rel="stylesheet" th:href="@{/bootstrap/css/bootstrap.min.css}">
+  <link rel="stylesheet" th:href="@{/element-ui/lib/theme/index.css}">
+
+  <style>
+    .el-header {
+      background-color: #B3C0D1;
+      color: #333;
+      line-height: 60px;
+    }
+
+    .el-aside {
+      color: #333;
+    }
+  </style>
+
+  <base target="iframe"/>
+</head>
+
+<body class="">
+
+<!-- BEGIN HEADER -->
+<div id="app" v-cloak>
+
+  <el-container style="height: 100%; border: 1px solid #eee">
+
+    <el-main>
+      <p>欢迎 欢迎━(*｀∀´*)ノ亻!</p>
+    </el-main>
+
+
+  </el-container>
+</div>
+<!-- END CONTAINER -->
+
+
+</body>
+
+<script th:src="@{/jquery/jquery.min.js}"></script>
+<script th:src="@{/vue/vue.js}"></script>
+<script th:src="@{/bootstrap/js/bootstrap.min.js}"></script>
+<script th:src="@{/axios/axios.js}"></script>
+<script th:src="@{/element-ui/lib/index.js}"></script>
+<script th:src="@{/js/index.js}"></script>
+</html>
+
+
